@@ -1,5 +1,6 @@
+properties([parameters([string(defaultValue: 'dhananjay.patade@skillnetinc.com', description: '', name: 'MANAGER_EMAIL_ID')]), pipelineTriggers([])])
 pipeline {
-  properties([parameters([string(defaultValue: 'dhananjay.patade@skillnetinc.com', description: '', name: 'MANAGER_EMAIL_ID')]), pipelineTriggers([])])
+  
   agent any
   stages {
     
