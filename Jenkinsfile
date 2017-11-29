@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Cleanup') {
       steps {
-        sh 'echo \'heloo\''
+        bat 'echo \'DJ\''
       }
     }
   }
