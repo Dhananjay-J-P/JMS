@@ -23,6 +23,7 @@ public class Receiver {
 
 	public void receiveMessage() {
 		try {
+			//Bla bLa
 			factory = new ActiveMQConnectionFactory(ActiveMQConnection.DEFAULT_BROKER_URL);
 			connection = factory.createConnection();
 
