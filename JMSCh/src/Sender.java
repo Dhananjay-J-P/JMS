@@ -23,6 +23,7 @@ public class Sender {
 	public void sendMessage() {
 
 		try {
+			//bla
 			factory = new ActiveMQConnectionFactory(ActiveMQConnection.DEFAULT_BROKER_URL);
 			connection = factory.createConnection();
 			connection.start();
